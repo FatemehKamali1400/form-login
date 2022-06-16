@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+  margin:0px;
+  padding: 0px;
+    
+}
+
+body{
+    background-image: linear-gradient(to right , #da22ff , #9733ee);
+}
+a{
+    text-decoration: none;
+    color : rgb(18, 55, 113);
+}
+#content{
+    width : 70%;
+    height: 500px;
+    background-color: #fff;
+    margin : 20px auto;
+    border-radius: 20px;
+}
+/* Left Section */
+#left-section{
+    width : 35%;
+    height : 500px;
+    background-color: rgb(237, 105, 105);
+    float: left;
+    padding-top : 150px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#img-section{
+    width:90%;
+    height : 200px;
+    background-color : blue;
+    margin : auto;
+    text-align : center;
+    border-radius: 50%;
+    
+}
+
+#img-section img {
+    width : 327px;  
+    padding: 20px;
+    margin-left: 37px;
+}
+
+/* Right Section */
+#right-section{
+    width : 65%;
+    height : 500px;
+    background-color: yellow;
+    float: left;
+    text-align: center;
+    padding : 50px 20px 20px 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#right-section h2{
+    background-color:yellow;
+    margin-top: 20px;
+}
+
+form{
+    /* text-align: center; */
+}
+
+.info-section{
+    width: 350px;
+    height: 50px;
+    background-color: #def186;
+    border-radius: 20px;
+    margin: 20px auto;
+    padding-top: 5px;
+}
+
+.info-items{
+    width : 88%;
+    height: 40px;
+    background-color : transparent;
+    border : none;
+    outline: none;
+
+}
+
+.my-icon{
+    position: relative;
+    right: 4px;
+    color : red;
+}
+
+button{
+    border : none;
+    background-color: rgb(122, 243, 122) !important;
+    cursor : pointer;
+}
+
+#forgot-section{
+    background-color: yellow;
+    color : rgb(47, 71, 255);
+}
+#forgot-section span{
+    color : black;
+}
+
+#create-section{
+    padding: 20px;
+}
+
